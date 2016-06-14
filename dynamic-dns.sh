@@ -10,8 +10,8 @@ STARTDIR=`pwd`
 cd `dirname $0`
 
 # Creds
-DOMAIN=`cat .domain`
-PASSWORD=`cat .password`
+DOMAIN=`cat .dyndns_domain`
+PASSWORD=`cat .dyndns_password`
 
 # Get the local IP of the wifi adaptor
 IP=`/sbin/ifconfig wlan | /usr/bin/awk '/inet addr/{print substr($2, 6)}'`

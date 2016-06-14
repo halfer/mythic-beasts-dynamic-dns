@@ -2,6 +2,6 @@
 /nbproject/
 
 # Ignore settings
-.domain
-.password
+.dyndns_domain
+.dyndns_password
 
