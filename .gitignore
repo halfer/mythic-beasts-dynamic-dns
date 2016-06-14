@@ -1,0 +1,7 @@
+# Ignore IDEs
+/nbproject/
+
+# Ignore settings
+.domain
+.password
+
